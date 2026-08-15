@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Our Love Story ❤️</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<audio id="birthdaySong" loop>
+    <source src="musics/birthdaySong.mpeg" type="audio/mpeg">
+</audio>
+    <!-- PASSWORD SCREEN -->
+    <div id="passwordScreen" class="password-screen">
+
+        <div class="lock">🔐</div>
+
+        <h1>Our Little Secret ❤️</h1>
+
+        <p>Only you can open this story...</p>
+
+        <input
+            type="password"
+            id="passwordInput"
+            placeholder="Enter our secret password"
+        >
+
+        <button onclick="checkPassword()">Unlock ❤️</button>
+
+        <p id="errorMessage"></p>
+
+    </div>
+
+
+   <!-- MAIN WEBSITE -->
+<div id="mainContent" class="main-content">
+
+    <div class="love-page">
+
+        <div class="heart-animation">❤️</div>
+
+        <h1>Welcome to Our Love Story ✨</h1>
+
+        <p class="intro">
+            This little world was made just for you...
+        </p>
+
+        <p class="intro">
+            Because some love stories deserve their own little universe. ❤️
+        </p>
+
+        <div class="divider">✦ ───── ✦</div>
+
+        <h2>Something Special Is Coming... 🎂</h2>
+
+        <div id="countdown">
+
+            <div class="time-box">
+                <span id="days">00</span>
+                <small>Days</small>
+            </div>
+
+            <div class="time-box">
+                <span id="hours">00</span>
+                <small>Hours</small>
+            </div>
+
+            <div class="time-box">
+                <span id="minutes">00</span>
+                <small>Minutes</small>
+            </div>
+
+            <div class="time-box">
+                <span id="seconds">00</span>
+                <small>Seconds</small>
+            </div>
+            </div>
+
+        <!-- PHOTO GALLERY -->
+
+<section class="photo-section">
+
+   <h2>Just You ❤️</h2>
+
+<p class="photo-intro">
+    Because every picture of you has a little piece of my heart... ✨
+</p>
+
+    <div class="photo-gallery">
+
+    <div class="photo-card">
+        <img src="images/my-mr-pic1.jpeg" alt="My Love" onclick="openImage(this)">
+        <p class="photo-caption">
+            Tumhari izzat, tumhari khushi aur tumhara sukoon mere liye hamesha important rahenge. 🌸
+        </p>
+    </div>
+
+    <div class="photo-card">
+        <img src="images/my-mr-pic2.jpeg" alt="My Love" onclick="openImage(this)">
+        <p class="photo-caption">
+            Allah hamare rishte mein hamesha khair, barkat aur sukoon rakhe. Ameen. 🤲🏻
+        </p>
+    </div>
+
+    <div class="photo-card">
+        <img src="images/my-mr-pic3.jpeg" alt="My Love" onclick="openImage(this)">
+        <p class="photo-caption">
+            Kuch log zindagi mein Allah ki taraf se khoobsurat tohfa ban kar aate hain…
+            mere liye woh aap hain. 🤍
+        </p>
+    </div>
+
+    <div class="photo-card">
+        <img src="images/my-mr-pic4.jpeg" alt="My Love" onclick="openImage(this)">
+        <p class="photo-caption">
+            You are one of the most beautiful reasons behind my smiles. ❤️
+        </p>
+    </div>
+
+    <div class="photo-card">
+        <img src="images/my-mr-pic5.jpeg" alt="My Love" onclick="openImage(this)">
+        <p class="photo-caption">
+            Some people make life beautiful just by being a part of it…
+            and you are that person for me. ✨
+        </p>
+    </div>
+
+    <div class="photo-card">
+        <img src="images/my-mr-pic6.jpeg" alt="My Love" onclick="openImage(this)">
+        <p class="photo-caption">
+            I pray that whatever the future holds, Allah always keeps our hearts
+            close and our bond filled with peace. 🤲🏻❤️
+        </p>
+    </div>
+
+</div>
+<!-- MUSIC SECTION -->
+
+<section class="music-section">
+
+    <h2>A Little Playlist For You 🎵❤️</h2>
+
+    <p class="music-intro">
+        Some songs just sound better when they remind me of you... ✨
+    </p>
+
+    <div class="song-list">
+
+        <div class="song-card">
+            <h3>Song 1 ❤️</h3>
+            <p>For the one who has my heart.</p>
+            <audio controls>
+                <source src="musics/song-1.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+
+
+        <div class="song-card">
+            <h3>Song 2 🌸</h3>
+            <p>A little song for a very special person.</p>
+            <audio controls>
+                <source src="musics/song-2.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+
+
+        <div class="song-card">
+            <h3>Song 3 🤍</h3>
+            <p>Because this one reminds me of you.</p>
+            <audio controls>
+                <source src="musics/song-3.mp3" type="audio/mpeg">
+                Your browser does not support audio.
+            </audio>
+        </div>
+
+    </div>
+</section>
+
+<!-- LOVE MESSAGE SECTION -->
+
+<section class="message-section">
+
+    <div class="message-card">
+
+        <div class="message-heart">💌</div>
+
+        <h2>A Little Message For You ❤️</h2>
+
+        <p>
+            Maybe I don't always have the perfect words,
+            but I hope you always know how special you are to me.
+        </p>
+
+        <p>
+            Tumhari izzat, tumhari khushi aur tumhara sukoon
+            mere liye hamesha important rahenge. 🌸
+        </p>
+
+        <p>
+            Allah hamare rishte mein hamesha khair,
+            barkat aur sukoon rakhe. Ameen. 🤲🏻❤️
+        </p>
+
+        <div class="message-divider">✦ ❤️ ✦</div>
+
+        <p class="special-line">
+            Kuch log zindagi mein Allah ki taraf se
+            khoobsurat tohfa ban kar aate hain...
+            mere liye woh aap hain. 🤍
+        </p>
+
+        <p class="signature">
+            — Always yours ❤️
+        </p>
+
+    </div>
+
+</section>
+<!-- OUR STORY SECTION -->
+
+<section class="story-section">
+
+    <h2>Our Little Story ❤️</h2>
+
+    <p class="story-intro">
+        Every beautiful story has little moments that make it special... ✨
+    </p>
+
+    <div class="story-timeline">
+
+        <div class="story-item">
+            <div class="story-dot">❤️</div>
+
+            <div class="story-content">
+                <h3>The Beginning 🌸</h3>
+                <p>
+                    Har khoobsurat kahani ki tarah,
+                    hamari kahani bhi ek chhoti si shuruaat se hui...
+                </p>
+            </div>
+        </div>
+
+
+        <div class="story-item">
+            <div class="story-dot">✨</div>
+
+            <div class="story-content">
+                <h3>The Little Moments 🤍</h3>
+                <p>
+                    Choti choti baatein, random smiles,
+                    aur woh moments jo dheere dheere
+                    mere liye bohot special ban gaye.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="story-item">
+            <div class="story-dot">🥰</div>
+
+            <div class="story-content">
+                <h3>You Became Special ❤️</h3>
+                <p>
+                    Pata hi nahi chala kab aap meri life ka
+                    itna khoobsurat hissa ban gaye.
+                </p>
+            </div>
+        </div>
+
+
+        <div class="story-item">
+            <div class="story-dot">🤲🏻</div>
+
+            <div class="story-content">
+                <h3>A Beautiful Future</h3>
+                <p>
+                    Bas dua hai ke Allah hamare rishte mein
+                    hamesha mohabbat, sukoon aur barkat rakhe. Ameen. ❤️
+                </p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!-- MISS ME SECTION -->
+
+<section class="miss-section">
+
+    <div class="miss-card">
+
+        <div class="miss-icon">💌</div>
+
+        <h2>Open When You Miss Me ❤️</h2>
+
+        <p class="miss-intro">
+            If you ever miss me, just open this little message... ✨
+        </p>
+
+        <button class="miss-button" onclick="showLoveMessage()">
+            Open My Heart 💕
+        </button>
+
+        <div id="hiddenLoveMessage" class="hidden-love-message">
+
+            <div class="big-heart">❤️</div>
+
+            <p>
+                Agar kabhi meri yaad aaye,
+                toh bas itna yaad rakhna...
+            </p>
+
+            <p>
+                Kahin na kahin ek dil hai
+                jo tumhari khushi ke liye hamesha dua karta hai. 🤲🏻
+            </p>
+
+            <p>
+                Distance ho ya busy days,
+                meri duaon mein tum hamesha rahoge. 🤍
+            </p>
+
+            <p class="miss-ending">
+                You are precious to me. Always. ❤️
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- FINAL SURPRISE SECTION -->
+
+<section class="final-section">
+
+    <div class="final-card">
+
+        <div class="final-stars">✨ 💛 ✨</div>
+
+        <h2>One Last Thing... ❤️</h2>
+
+        <p>
+            Before you leave this little world I made for you...
+        </p>
+
+        <p>
+            There is one more little surprise waiting for you. 🎁
+        </p>
+
+        <button class="surprise-button" onclick="openSurprise()">
+            Open Your Surprise ❤️
+        </button>
+
+        <div id="surpriseMessage" class="surprise-message">
+
+            <div class="birthday-heart">❤️</div>
+
+            <h1>Happy Birthday, My Love! 🎂</h1>
+
+            <p>
+                May Allah bless your life with endless happiness,
+                peace, success and beautiful moments. 🤲🏻✨
+            </p>
+
+            <p>
+                Thank you for being such a beautiful part of my life.
+                You are truly special to me. ❤️
+            </p>
+
+            <p class="forever-line">
+                May our story always be filled with love,
+                respect, peace and countless beautiful memories. 🤍
+            </p>
+
+            <div class="final-hearts">
+                ❤️ ✨ ❤️ ✨ ❤️
+            </div>
+
+            <div class="thank-you-message">
+
+    <div class="thank-you-heart">💛</div>
+
+    <h2>Thank You For Coming Into My Life ❤️</h2>
+
+    <p>
+        Saad Hussain, thank you for becoming such a beautiful
+        part of my life. ✨
+    </p>
+
+    <p>
+        Tum meri zindagi mein aaye aur bohat si ordinary moments
+        ko beautiful memories bana diya. ❤️
+    </p>
+
+    <p>
+        Main Allah ka shukar ada karti hoon ke meri zindagi mein
+        tum jaisa insaan aaya. 🤲🏻
+    </p>
+
+    <p>
+        Thank you for every smile, every little moment,
+        every memory and simply for being you. 🤍
+    </p>
+
+    <div class="thank-you-divider">✦ ❤️ ✦</div>
+
+    <p class="my-name">
+        With love,<br>
+        <strong> YOUR WIFY ❤️</strong>
+    </p>
+
+    <p class="forever-line">
+        May Allah always keep us together in happiness,
+        peace and love. Ameen. 🤲🏻✨
+    </p>
+
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+</div>
+</div>
+    <script>
+
+    function checkPassword() {
+
+        const password =
+            document.getElementById("passwordInput").value;
+
+       if (password === "S@ib@") {
+
+    document.getElementById("passwordScreen").style.display = "none";
+
+    const mainContent = document.getElementById("mainContent");
+
+    mainContent.style.display = "flex";
+
+    mainContent.classList.add("unlock-effect");
+
+    // HAPPY BIRTHDAY SONG 🎂❤️
+    const birthdaySong = document.getElementById("birthdaySong");
+
+    birthdaySong.volume = 0.5 ;
+    birthdaySong.play();
+
+}   else {
+
+            document.getElementById("errorMessage").innerText =
+                "Wrong password... try again ❤️";
+
+        }
+    }
+    
+
+
+    // BIRTHDAY COUNTDOWN
+
+    const birthday = new Date("February 27, 2027 00:00:00").getTime();
+
+    const countdown = setInterval(function () {
+
+        const now = new Date().getTime();
+
+        const difference = birthday - now;
+
+        const days = Math.floor(
+            difference / (1000 * 60 * 60 * 24)
+        );
+
+        const hours = Math.floor(
+            (difference % (1000 * 60 * 60 * 24))
+            / (1000 * 60 * 60)
+        );
+
+        const minutes = Math.floor(
+            (difference % (1000 * 60 * 60))
+            / (1000 * 60)
+        );
+
+        const seconds = Math.floor(
+            (difference % (1000 * 60))
+            / 1000
+        );
+
+
+        document.getElementById("days").innerText =
+            String(days).padStart(2, "0");
+
+        document.getElementById("hours").innerText =
+            String(hours).padStart(2, "0");
+
+        document.getElementById("minutes").innerText =
+            String(minutes).padStart(2, "0");
+
+        document.getElementById("seconds").innerText =
+            String(seconds).padStart(2, "0");
+
+
+        if (difference < 0) {
+
+            clearInterval(countdown);
+
+            document.getElementById("countdown").innerHTML =
+                "<h2>Happy Birthday, My Love! 🎂❤️</h2>";
+
+        }
+
+    }, 1000);
+    
+
+        
+
+    function showLoveMessage() {
+
+    const message = document.getElementById("hiddenLoveMessage");
+
+    message.style.display = "block";
+
+}
+
+
+function openSurprise() {
+    const surprise = document.getElementById("surpriseMessage");
+
+    surprise.style.display = "block";
+
+    setTimeout(() => {
+        surprise.scrollIntoView({
+            behavior: "smooth",
+            block: "center"
+        });
+    }, 200);
+}
+function openImage(image) {
+    const modal = document.getElementById("imageModal");
+    const largeImage = document.getElementById("largeImage");
+
+    largeImage.src = image.src;
+
+    modal.style.display = "flex";
+    document.body.style.overflow = "hidden";
+}
+
+function closeImage() {
+    const modal = document.getElementById("imageModal");
+
+    modal.style.display = "none";
+    document.body.style.overflow = "auto";
+}
+
+
+</script>
+
+<!-- FULL SCREEN IMAGE -->
+
+<div id="imageModal" class="image-modal" onclick="closeImage()">
+
+    <span class="close-image">&times;</span>
+
+    <img id="largeImage" src="" alt="Large Photo">
+
+</div>
+
+
+</body>
+</html>
